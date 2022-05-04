@@ -1,0 +1,9 @@
+.load-more {
+	display: block;
+	margin: 20px auto;
+	background-color: rgb(25, 4, 99);
+	color: #fff;
+	height: 40px;
+	width: 150px;
+	border-radius: 5px;
+}
