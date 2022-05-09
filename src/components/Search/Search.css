@@ -1,0 +1,45 @@
+.header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: rgb(38, 60, 187);
+	height: 60px;
+	z-index: 1000;
+}
+.header h1 {
+	margin: 0;
+}
+.search-form {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: 30px;
+}
+.box-form {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 30px;
+	border-radius: 5px;
+	background: #fff;
+}
+.box-form input {
+	margin-left: 5px;
+	height: 22px;
+}
+
+.box-form button {
+	width: 30px;
+	height: 30px;
+	padding: 5px;
+	background-image: url(../images/search.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 70%;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}

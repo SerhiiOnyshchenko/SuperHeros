@@ -1,0 +1,10 @@
+.label-filter {
+	padding: 20px;
+	background: rgb(38, 60, 187);
+	border-bottom-right-radius: 10px;
+}
+
+.label-filter input {
+	margin-left: 10px;
+	margin-bottom: 25px;
+}

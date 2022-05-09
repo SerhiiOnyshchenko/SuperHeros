@@ -1,7 +1,9 @@
+import './Filter.css';
+
 const Filter = ({ value, onChange }) => {
    return (
-      <label>
-         filter for name
+      <label className="label-filter">
+         Filter for name
          <input type="text" value={value} onChange={onChange} />
       </label>
    );
